@@ -1,27 +1,191 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-	/* header starts */
+	.ex-bold-54 {
+		font-size: 50px;
+	}
+
+	/* .med-20 {
+		font-size: 13px;
+	} */
+
+	.pt-200 {
+		padding-top: 220px;
+	}
+
+	/* hero starts */
+	.ellipsis-hero {
+		top: calc(23% - 20px);
+		left: calc(5% - 20px);
+		width: 45%;
+		height: 630px;
+	}
+
+	/* database starts */
+	.ellipsis-data {
+		top: calc(27% - 20px);
+		left: calc(5% - 20px);
+	}
+
+	.data-right {
+		width: 90%;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-	/* header starts */
+	/* .ex-bold-54 {
+		font-size: 30px;
+	}
+
+	.med-20 {
+		font-size: 14px;
+	}
+
+	.pt-200 {
+		padding-top: 150px;
+	} */
+
+	.c_custom {
+		max-width: 540px !important;
+	}
+
+	/* hero starts */
+	.ellipsis-hero {
+		top: calc(15% - 20px);
+		width: 220px;
+		height: 750px;
+	}
+
+	/* database starts */
+	.ellipsis-data {
+		top: calc(30% - 20px);
+		left: calc(40% - 20px);
+		width: 295px;
+		height: 539px;
+	}
 }
 
 /* Medium devices(sm) (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-	/* header starts */
+	.ex-bold-54 {
+		font-size: 38px;
+	}
+
+	.med-20 {
+		font-size: 13px;
+	}
+
+	.pt-200 {
+		padding-top: 150px;
+	}
+
+	/* hero starts */
+	.ellipsis-hero {
+		top: calc(6% - 20px);
+		left: calc(36% - 20px);
+		width: 220px;
+		height: 750px;
+	}
+
+	/* database starts */
+	.ellipsis-data {
+		top: calc(25% - 20px);
+		left: calc(40% - 20px);
+		width: 330px;
+		height: 535px;
+	}
+
+	.data-right {
+		width: 100%;
+	}
 }
 
 /* Large devices(md) (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+	.ex-bold-54 {
+		font-size: 46px;
+	}
+
+	.med-20 {
+		font-size: 18px;
+	}
+
+	.pt-200 {
+		padding-top: 150px;
+	}
+
+	/* hero starts */
+	.ellipsis-hero {
+		top: calc(8% - 20px);
+		width: 250px;
+		height: 860px;
+	}
+
+	/* database starts */
+	.ellipsis-data {
+		top: calc(11% - 20px);
+		left: calc(40% - 20px);
+		width: 300px;
+		height: 500px;
+	}
+
+	.data-right {
+		width: 85%;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1441.98px){
+	.pt-200 {
+		padding-top: 150px;
+	}
+
+	/* hero starts */
+	.ellipsis-hero {
+		top: calc(9% - 20px);
+		width: 290px;
+		height: 835px;
+	}
+
+	/* database starts */
+	.ellipsis-data {
+		top: calc(15% - 20px);
+		left: calc(42% - 20px);
+		width: 304px;
+		height: 543px;
+	}
+
+	.data-left img {
+		width: 95%;
+	}
+}
+  
+/* Extra large devices (large desktops, 1442px and up) */
+@media (min-width: 1442px) and (max-width: 2499.99px) {
+   /*default screen*/
 }
 
+/* Extra large devices (large desktops, 1900px and up) */
+@media (min-width: 2500px) {
+	.pt-200 {
+		padding-top: 300px;
+	}
 
+	/* hero starts */
+	.ellipsis-hero {
+		top: calc(18% - 20px);
+	}
+
+	/* database starts */
+	.ellipsis-data {
+		top: calc(25% - 20px);
+		left: calc(45% - 20px);
+		width: 295px;
+		height: 550px;
+	}
+}
+
+  
 /*
 *
 *
@@ -32,8 +196,78 @@
 *
 /****** Extra extra small devices (s6 mobiles, 320px and below) *******/
 @media (max-width: 320px) {
+	.ex-bold-54 {
+		font-size: 40px;
+	}
+
+	.med-20 {
+		font-size: 16px;
+	}
+
+	.bold-38 {
+		font-size: 28px;
+	}
+
+	.light-22 {
+		font-size: 17px;
+	}
+
+	/* hero starts */
+	.ellipsis-hero {
+		top: calc(38% - 20px);
+		left: 0;
+		width: 180px;
+		height: 300px;
+	}
+
+	/* database starts */
+	.ellipsis-data {
+		width: 30%;
+		top: calc(27% - 20px);
+		left: calc(0% - 20px);
+		width: 180px;
+		height: 300px;
+	}
+
+	.data-right {
+		width: 90%;
+	}
 }
 
 /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
 @media (min-width: 321px) and (max-width: 376px) {
+	.ex-bold-54 {
+		font-size: 40px;
+	}
+
+	.med-20 {
+		font-size: 16px;
+	}
+
+	.bold-38 {
+		font-size: 34px;
+	}
+
+	.light-22 {
+		font-size: 17px;
+	}
+
+	/* hero starts */
+	.ellipsis-hero {
+		top: calc(22% - 20px);
+		left: calc(0% - 20px);
+		width: 40%;
+		height: 630px;
+	}
+
+	/* database starts */
+	.ellipsis-data {
+		width: 40%;
+		top: calc(27% - 20px);
+		left: calc(0% - 20px);
+	}
+
+	.data-right {
+		width: 90%;
+	}
 }
