@@ -48,6 +48,76 @@
 		width: 120px;
 		height: 500px;
 	}
+	
+	/* product starts*/
+	.products {
+		height: 2000px;
+	}
+
+	.products .ellipse-wrapper {
+		height: 2000px;
+	}
+
+	.product-item {
+		padding: 40px 0;
+	}
+
+	.pi-ml-unset {
+		margin-left: auto;
+	}
+
+	.pr-img-widget img {
+		width: 180px;
+	}
+
+	.pr-img-custom {
+		width: 60%;
+		margin-left: auto;
+	}
+
+	.ellipsis-product-left {
+		top: calc(11% - 20px);
+		left: calc(15% - 20px);
+		width: 401.56px;
+		height: 438.47px;
+		z-index: 1;
+	}
+
+	.ellipsis-product-middle {
+		width: 525.51px;
+		height: 552.25px;
+		top: calc(65% - 20px);
+		left: calc(17% - 20px);
+	}
+
+	.ellipsis-product-right {
+		top: calc(42% - 20px);
+		left: calc(30% - 20px);
+		width: 355.58px;
+		height: 375.82px;
+	}
+
+	/* subscription starts */
+	.subscription {
+		height: 1500px;
+	}
+
+	.sub-title {
+		float: none;
+	}
+
+	.sub-price {
+		float: none;
+	}
+
+	.subs-item {
+		padding: 55px 40px;
+	}
+
+	/* footer starts */
+	.footer {
+		height: 380px;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -97,6 +167,84 @@
 		width: 162px;
 		height: 530px;
 	}
+	
+	/* product starts*/
+	.products {
+		height: 1800px;
+	}
+
+	.products .ellipse-wrapper {
+		height: 1800px;
+	}
+
+	.product-item {
+		padding: 40px 0;
+	}
+
+	.pitem-4, .pitem-5 {
+		padding: 80px 0;
+	}
+
+	.pr-img-widget img {
+		width: 180px;
+	}
+
+	.pr-img-custom {
+		margin-left: unset;
+	}
+
+	.ellipsis-product-left {
+		top: calc(11% - 20px);
+		left: calc(31% - 20px);
+		width: 401.56px;
+		height: 438.47px;
+		z-index: 1;
+	}
+
+	.ellipsis-product-middle {
+		width: 525.51px;
+		height: 552.25px;
+		top: calc(59% - 20px);
+		left: calc(20% - 20px);
+	}
+
+	.ellipsis-revenue-right {
+		top: calc(23% - 20px);
+		left: calc(55% - 20px);
+		width: 145px;
+		height: 495px;
+	}
+
+	/* subscription starts */
+	.subscription {
+		height: 1400px;
+	}
+
+	.subscription .ellipse-wrapper {
+		height: 1400px;
+	}
+
+	.sub-title {
+		float: none;
+	}
+
+	.sub-price {
+		float: none;
+	}
+
+	/* footer starts */
+	.footer {
+		height: 600px;
+	}
+
+	.footer-ellipsis-wrapper {
+		height: 600px;
+	}
+
+	.ellipsis-foots-right {
+		top: calc(35% - 20px);
+		left: calc(53% - 20px);
+	}
 }
 
 /* Medium devices(sm) (tablets, 768px and up) */
@@ -115,10 +263,10 @@
 
 	/* hero starts */
 	.ellipsis-hero {
-		top: calc(6% - 20px);
+		top: calc(10% - 20px);
 		left: calc(36% - 20px);
 		width: 220px;
-		height: 750px;
+		height: 625px;
 	}
 
 	/* database starts */
@@ -138,11 +286,19 @@
 		width: 95%;
 	}
 
-	.ellipsis-revenue-left {
-		top: calc(25% - 20px);
-		left: calc(32% - 20px);
-		width: 145px;
-		height: 495px;
+	.ellipsis-product-left {
+		top: calc(11% - 20px);
+		left: calc(31% - 20px);
+		width: 401.56px;
+		height: 438.47px;
+		z-index: 1;
+	}
+
+	.ellipsis-product-middle {
+		width: 525.51px;
+		height: 552.25px;
+		top: calc(49% - 20px);
+		left: calc(20% - 20px);
 	}
 
 	.ellipsis-revenue-right {
@@ -150,6 +306,46 @@
 		left: calc(55% - 20px);
 		width: 145px;
 		height: 495px;
+	}
+	
+	/* product starts*/
+	.products {
+		height: 1800px;
+	}
+
+	.products .ellipse-wrapper {
+		height: 1800px;
+	}
+
+	.product-item {
+		padding: 40px 0;
+	}
+
+	.pitem-4, .pitem-5 {
+		padding: 80px 0;
+	}
+
+	.pr-img-custom {
+		margin-left: unset;
+	}
+
+	/* subscription starts */
+	.subscription {
+		height: 1200px;
+	}
+
+	/* footer starts */
+	.footer {
+		height: 600px;
+	}
+
+	.footer-ellipsis-wrapper {
+		height: 600px;
+	}
+
+	.ellipsis-foots-right {
+		top: calc(35% - 20px);
+		left: calc(53% - 20px);
 	}
 }
 
@@ -187,18 +383,97 @@
 	}
 
 	/* reverse starts */
-	.ellipsis-revenue-right {
-		top: calc(30% - 20px);
-		left: calc(65% - 20px);
-		width: 162px;
-		height: 530px;
+	.ellipsis-product-right {
+		top: calc(19% - 20px);
+		left: calc(56% - 20px);
+		width: 355.58px;
+		height: 375.82px;
 	}
 
-	.ellipsis-revenue-left {
-		top: calc(30% - 20px);
-		left: calc(25% - 20px);
-		width: 162px;
-		height: 530px;
+	.ellipsis-product-middle {
+		width: 492.51px;
+		height: 504.25px;
+		top: calc(51% - 20px);
+		left: calc(31% - 20px);
+	}
+
+	.ellipsis-product-left {
+		top: calc(14% - 20px);
+		left: calc(15% - 20px);
+		width: 401.56px;
+		height: 438.47px;
+	}
+
+	/* product starts*/
+	.products {
+		height: 1200px;
+	}
+
+	.products .ellipse-wrapper {
+		height: 1200px;
+	}
+
+	.pitem-3 {
+		padding: 38px 0;
+	}
+
+	.pr-img-widget img {
+		width: 170px;
+	}
+
+	.col-cus-6{
+		-ms-flex: 0 0 50% !important;
+		flex: 0 0 50% !important;
+		max-width: 50% !important;
+	}
+
+	.col-cus-8 {
+		-ms-flex: 0 0 100% !important;
+		flex: 0 0 100% !important;
+		max-width: 100% !important;
+	}
+
+	.order-cus-2{
+		-ms-flex-order: 2 !important;
+		order: 2 !important;
+		padding-top: 0 !important;
+	}
+
+	.order-cus-3{
+		-ms-flex-order: 3 !important;
+		order: 3 !important;
+		padding-top: 1.5rem !important;
+	}
+
+	.order-cus-2{
+		-ms-flex-order: 2 !important;
+		order: 2 !important;
+	}
+
+	.order-cus-4{
+		-ms-flex-order: 4 !important;
+		order: 4 !important;
+	}
+
+	/* subscription starts */
+	.subscription{
+		height: 950px;
+	}
+
+	.subscription .ellipse-wrapper {
+		height: 1200px;
+	}
+
+	.sub-title {
+		float: none;
+	}
+
+	.sub-price {
+		float: none;
+	}
+
+	.subs-item-2 {
+		padding: 68px 80px;
 	}
 }
 
@@ -241,15 +516,49 @@
 		width: 162px;
 		height: 530px;
 	}
+
+	/* products starts */
+	.c_custom_2 {
+		max-width: 1360px !important;
+	}
+
+	.pitem-1 .product-left{
+		width: 85%;
+	}
+
+	.pitem-2 .product-left {
+    	width: 77%;
+	}
+
+	.pitem-2 {
+		padding: 29px 0;
+	}
+
+	.pitem-4 {
+		padding-bottom: 47px;
+	}
+
+	/* footer starts */
+	.ellipsis-foots-left {
+		top: calc(-30% - 20px);
+		left: calc(8% - 20px);
+	}
 }
   
 /* Extra large devices (large desktops, 1442px and up) */
 @media (min-width: 1442px) and (max-width: 2499.99px) {
    /*default screen*/
+	.c_custom_2 {
+		max-width: 1440px !important;
+	}
 }
 
 /* Extra large devices (large desktops, 1900px and up) */
 @media (min-width: 2500px) {
+	.c_custom_2 {
+		max-width: 1440px !important;
+	}
+
 	.pt-200 {
 		padding-top: 300px;
 	}
@@ -280,6 +589,19 @@
 		left: calc(40% - 20px);
 		width: 162px;
 		height: 530px;
+	}
+
+	/* products starts */
+	.pitem-2 {
+		padding: 38px 0;
+	}
+
+	.pitem-4 {
+		padding-bottom: 40px;
+	}
+
+	.pitem-5 {
+		padding: 59px 0;
 	}
 }
 
