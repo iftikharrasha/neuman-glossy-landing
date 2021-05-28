@@ -70,6 +70,10 @@ body {
     max-width: 1740px !important;
 }
 
+.c_custom_2 {
+    max-width: 1440px !important;
+}
+
 /* header starts */
 .header-fixed {
     position: absolute;
@@ -97,7 +101,7 @@ body {
     top: 0;
     left: 0;
 	background: rgba(20, 20, 20, 0.4);
-	filter: blur(120px);
+	filter: blur(140px);
 	z-index: 1;
 	overflow: hidden;
 }
@@ -171,21 +175,19 @@ body {
 /* products starts */
 
 .product-item{
-	width: 80%;
-    background-color: rgba(138, 138, 138, 0.2);
-    backdrop-filter: blur(298px);
-	-webkit-backdrop-filter: blur(298px);
+	background: rgba(138, 138, 138, 0.2);
+    /* backdrop-filter: blur(298px);
+	-webkit-backdrop-filter: blur(298px); */
     border-radius: 15px;
     padding: 50px 0;
 }
 
 .product-left {
     width: 77%;
-    margin-left: auto;
 }
 
 .ellipsis-product{
-    background: linear-gradient(93.27deg, #F754E7 4.44%, #6A53F7 99.9%);
+    background: linear-gradient(93.27deg, #F754E7 4.44%, #6A53F7 85.9%);
     transform: rotate(-65.65deg);
 }
 
@@ -216,6 +218,26 @@ body {
 }
 
 .pitem-2 {
-    width: 90%;
     padding: 20px 0;
+}
+
+.pitem-3 {
+    padding: 50px 0;
+}
+
+.pitem-5 {
+    padding: 60px 0;
+}
+
+.pr-img-widget img {
+    width: 268px;
+}
+
+.pitem-4 {
+    padding-bottom: 39px;
+}
+
+.pr-img-custom {
+    width: 75%;
+    margin-left: auto;
 }
