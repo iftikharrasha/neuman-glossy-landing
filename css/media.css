@@ -29,21 +29,32 @@
 	.data-right {
 		width: 90%;
 	}
+
+	/* reverse starts */
+	.revenue-left h2 {
+		width: 100%;
+	}
+	
+	.ellipsis-revenue-right {
+		top: calc(30% - 20px);
+		left: calc(20% - 20px);
+		width: 60px;
+		height: 500px;
+	}
+
+	.ellipsis-revenue-left {
+		top: calc(27% - 20px);
+		left: calc(20% - 20px);
+		width: 120px;
+		height: 500px;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-	/* .ex-bold-54 {
-		font-size: 30px;
+	.light-22 {
+		font-size: 18px;
 	}
-
-	.med-20 {
-		font-size: 14px;
-	}
-
-	.pt-200 {
-		padding-top: 150px;
-	} */
 
 	.c_custom {
 		max-width: 540px !important;
@@ -62,6 +73,29 @@
 		left: calc(40% - 20px);
 		width: 295px;
 		height: 539px;
+	}
+
+	.data-right {
+		width: 90%;
+	}
+
+	/* reverse starts */
+	.revenue-left h2 {
+		width: 100%;
+	}
+	
+	.ellipsis-revenue-right {
+		top: calc(30% - 20px);
+		left: calc(50% - 20px);
+		width: 162px;
+		height: 530px;
+	}
+
+	.ellipsis-revenue-left {
+		top: calc(33% - 20px);
+		left: calc(35% - 20px);
+		width: 162px;
+		height: 530px;
 	}
 }
 
@@ -98,6 +132,25 @@
 	.data-right {
 		width: 100%;
 	}
+
+	/* reverse starts */
+	.revenue-left h2 {
+		width: 95%;
+	}
+
+	.ellipsis-revenue-left {
+		top: calc(25% - 20px);
+		left: calc(32% - 20px);
+		width: 145px;
+		height: 495px;
+	}
+
+	.ellipsis-revenue-right {
+		top: calc(23% - 20px);
+		left: calc(55% - 20px);
+		width: 145px;
+		height: 495px;
+	}
 }
 
 /* Large devices(md) (desktops, 992px and up) */
@@ -132,6 +185,21 @@
 	.data-right {
 		width: 85%;
 	}
+
+	/* reverse starts */
+	.ellipsis-revenue-right {
+		top: calc(30% - 20px);
+		left: calc(65% - 20px);
+		width: 162px;
+		height: 530px;
+	}
+
+	.ellipsis-revenue-left {
+		top: calc(30% - 20px);
+		left: calc(25% - 20px);
+		width: 162px;
+		height: 530px;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -158,6 +226,21 @@
 	.data-left img {
 		width: 95%;
 	}
+
+	/* reverse starts */
+	.ellipsis-revenue-right {
+		top: calc(30% - 20px);
+		left: calc(60% - 20px);
+		width: 162px;
+		height: 530px;
+	}
+
+	.ellipsis-revenue-left {
+		top: calc(30% - 20px);
+		left: calc(30% - 20px);
+		width: 162px;
+		height: 530px;
+	}
 }
   
 /* Extra large devices (large desktops, 1442px and up) */
@@ -182,6 +265,21 @@
 		left: calc(45% - 20px);
 		width: 295px;
 		height: 550px;
+	}
+
+	/* reverse starts */
+	.ellipsis-revenue-right {
+		top: calc(30% - 20px);
+		left: calc(55% - 20px);
+		width: 162px;
+		height: 530px;
+	}
+
+	.ellipsis-revenue-left {
+		top: calc(30% - 20px);
+		left: calc(40% - 20px);
+		width: 162px;
+		height: 530px;
 	}
 }
 
