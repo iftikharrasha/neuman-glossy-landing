@@ -1,12 +1,12 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+	.hero, .database, .logic, .invite, .revenue, .subscription{
+		min-height: 700px;
+	}
+
 	.ex-bold-54 {
 		font-size: 50px;
 	}
-
-	/* .med-20 {
-		font-size: 13px;
-	} */
 
 	.pt-200 {
 		padding-top: 220px;
@@ -122,6 +122,10 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+	.hero, .database, .logic, .invite, .revenue, .subscription{
+		min-height: 700px;
+	}
+
 	.light-22 {
 		font-size: 18px;
 	}
@@ -249,6 +253,10 @@
 
 /* Medium devices(sm) (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+	.hero, .database, .logic, .invite, .revenue, .subscription{
+		min-height: 700px;
+	}
+
 	.ex-bold-54 {
 		font-size: 38px;
 	}
@@ -351,6 +359,10 @@
 
 /* Large devices(md) (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+	.hero, .database, .logic, .invite, .revenue, .subscription{
+		min-height: 810px;
+	}
+	
 	.ex-bold-54 {
 		font-size: 46px;
 	}
@@ -411,6 +423,7 @@
 
 	.products .ellipse-wrapper {
 		height: 1200px;
+		min-height: 1200px;
 	}
 
 	.pitem-3 {
@@ -542,6 +555,10 @@
 	.ellipsis-foots-left {
 		top: calc(-30% - 20px);
 		left: calc(8% - 20px);
+	}
+
+	.hero, .database, .logic, .invite, .revenue, .products, .subscription{
+		min-height: 810px;
 	}
 }
   

@@ -115,20 +115,22 @@ body {
 /* header starts */
 .header-fixed {
     position: fixed;
-    background: rgba(37, 37, 62, 0.45);
+    background: #272638;
     left: 0;
     right: 0;
     top: 0;
     transition: all 0.5s ease 0s;
     z-index: 9999;
     visibility: inherit;
+	backdrop-filter: blur(5px);
 }
 
-.header-sticky.stick {
+.header-fixed.stick {
     position: fixed;
     background: transparent;
     top: 0;
-    box-shadow: 0px 3px 6px #00000029;
+    box-shadow: 0px 3px 6px #0000001a;
+	backdrop-filter: blur(5px);
 }
 
 .navbar button:focus {
@@ -140,6 +142,7 @@ body {
 	position: relative;
 	width: 100%;
     height: 100vh;
+	min-height: 1080px;
 }
 
 .footer{
