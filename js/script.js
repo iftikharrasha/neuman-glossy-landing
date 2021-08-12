@@ -6,3 +6,10 @@ $(window).scroll(function () {
         $("header").removeClass("stick");
     }
 });
+
+//smooth scroll
+const r = rolly({
+    view: document.querySelector('.app'),
+    native: true,
+});
+r.init();
